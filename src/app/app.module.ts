@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BannerComponent } from './banner/banner.component';
 import { InfoComponent } from './info/info.component';
 import { VeterinarianSectionComponent } from './veterinarian-section/veterinarian-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { VeterinarianSectionComponent } from './veterinarian-section/veterinaria
     MenuComponent,
     BannerComponent,
     InfoComponent,
-    VeterinarianSectionComponent
+    VeterinarianSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

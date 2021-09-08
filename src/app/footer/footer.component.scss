@@ -1,0 +1,42 @@
+.footer{
+  background-color: #444444;
+  color: #fff;
+  padding: 2em 0;
+}
+.listLink{
+  ul{
+    list-style-type: none;
+
+    li{
+      margin: 8px 0;
+    }
+  }
+}
+.forms{
+  h3{
+    text-align: right;
+  }
+  p{
+    text-align: right;
+  }
+  form{
+    display: flex;
+    justify-content: flex-end;
+
+    button{
+      background-color: #00d0ff;
+      border: none;
+      padding: 10px;
+      color: #fff;
+      padding: 10px 18px;
+    }
+    input{
+      width: 60%;
+      border: none;
+      border-radius: 0;
+      background-color: #f6d800;
+      outline: none;
+      padding: 0 10px;
+    }
+  }
+}
