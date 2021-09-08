@@ -1,0 +1,22 @@
+<div class="betenrinary">
+  <div class="container">
+    <div class="w-100 sectionTitltes">
+      <h1 class="title">Title Here</h1>
+      <p class="decription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur suscipit neque perferendis.
+      </p>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-4 p-2" *ngFor="let item of info">
+        <div class="card w-100">
+          <img class="card-img-top" src="{{item.img}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

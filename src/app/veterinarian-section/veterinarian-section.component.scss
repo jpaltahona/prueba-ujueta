@@ -1,0 +1,39 @@
+.betenrinary{
+  background-color: #ffc802;
+  padding: 4em 0;
+  color: #fff;
+  text-align: center;
+
+  .sectionTitltes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    .title{
+      font-size: 4em;
+    }
+    .decription{
+      width: 50%;
+      font-size: 1.4em;
+    }
+  }
+
+ 
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 1em;
+  h5{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,26 @@
+.banner{
+  background-color: #ffc802;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+      
+  .title{
+    font-size: 3em;
+  }
+  .description{
+    font-size: 1.2em;
+  }
+  .btn-contact{
+    background-color: #00d0ff;
+    color: #fff;
+    padding: 14px 25px;
+
+  }
+  .btn-service{
+    border: solid 2px #fff;
+    color: #fff;
+    padding: 14px 25px;
+  }
+}

@@ -1,0 +1,36 @@
+.nav-menu{
+  background-color: #e1b207;
+  color: #fff;
+  ul{
+
+    li{
+      a{
+        color: #fff;
+        font-weight: 700;
+      }
+      form{
+        box-shadow: 0px 0px 9px 2px #00000014;
+
+        input{
+          border-radius: 0;
+          border: none;
+          background-color: #f6d800;
+          color: #fff;
+          outline: none;
+        }
+        button{
+          background-color: #00d0ff;
+          border-radius: 0;
+          color: #fff;
+          border: none;;
+
+          img{
+            width: 16px;
+            height: 16px;
+            color: #fff
+          }
+        }
+      }
+    }
+  }
+}

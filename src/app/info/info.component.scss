@@ -1,0 +1,33 @@
+.info-component{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .video-container{
+    position: relative;
+    .video{
+      width: 430px;
+      background-color: #ffff0075;
+    }
+    .chip{
+      position: absolute;
+      width: 200px;
+      height: 150px;
+      background-color: ffff0075;
+      bottom: -35px;
+      left: -35px;
+      z-index: -1;
+    }
+  }
+}
+.btn-action{
+  color: #ffffff;
+  background-color: #ffc801;
+  width: 150px;
+  padding: 16px 10px;
+}
+.reverse{
+  flex-direction: row-reverse;
+}
